@@ -1,36 +1,45 @@
 <div class="container">
-  <div class="header d-flex flex-row justify-content-end bg-primary mb-5 mt-5">
-    <button
-      type="button"
-      class="btn btn-transparent"
-      (click)="scroll(PastProjectsTarget)"
-    >
-      Past Projects
-    </button>
-    <button
-      type="button"
-      class="btn btn-transparent"
-      (click)="scroll(WorkTarget)"
-    >
-      Work
-    </button>
-    <button
-      type="button"
-      class="btn btn-transparent"
-      (click)="scroll(SkillsTarget)"
-    >
-      Skills
-    </button>
-  </div>
-  <div class="content text-center bg-secondary">
+  <nav
+    class="navbar fixed-top navbar-dark bg-dark justify-content-end"
+  >
+    <div class="container-fluid navbar-content-end">
+      <button
+        type="button"
+        class="btn btn-transparent text-light"
+        (click)="scroll(PastProjectsTarget)"
+      >
+        Past Projects
+      </button>
+      <button
+        type="button"
+        class="btn btn-transparent text-light"
+        (click)="scroll(WorkTarget)"
+      >
+        Work
+      </button>
+      <button
+        type="button"
+        class="btn btn-transparent text-light"
+        (click)="scroll(SkillsTarget)"
+      >
+        Skills
+      </button>
+    </div>
+  </nav>
+
+  <div class="content text-center">
     <!-- Intro -->
-    <div>
-      <div>Hi, I'm Kelvin</div>
-      <div>personal statement</div>
-      <h1>
-        4th Year Software Engineering student<br />
-        at the University of Auckland
-      </h1>
+    <div style="min-height: 100vh" class="d-flex flex-column justify-content-center text-dark">
+      <span>
+        <h1 class="d-inline align-middle">Hi, I'm Kelvin Shen  </h1>
+        <img src="../assets/waving-hand.png" class="d-inline" style="width: 35px;"/>
+
+      </span>
+      <div>
+        I'm a 4th-year Software Engineering student at the University of
+        Auckland. <br />
+        I'm also a team player with a can-do attitude.
+      </div>
     </div>
 
     <!-- Past projects -->
