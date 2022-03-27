@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
+import { PastProjectComponent } from './pastproject.component';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'first-angluar-project';
+  @ViewChild(PastProjectComponent) child!:PastProjectComponent;
+  title = 'My Personal Website';
+
+  scroll(htmlElement: HTMLElement){
+    htmlElement.scrollIntoView();
+
+  }
 }
