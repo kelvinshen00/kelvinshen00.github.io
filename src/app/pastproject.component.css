@@ -1,0 +1,38 @@
+.container:hover .image {
+  opacity: 0.5;
+}
+
+.text {
+  color: black;
+}
+
+.image {
+    opacity: 1;
+}
+
+.container:hover .center {
+  opacity: 1;
+}
+
+.container {
+  position: relative;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  opacity: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  opacity: 0.3;
+}
+
+.h-250 {
+  height: 250px;
+}

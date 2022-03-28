@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { workData } from 'src/content';
 
 @Component({
     selector: 'work',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
     styleUrls: []
 })
 export class WorkComponent {
-
+    works = workData;
 }

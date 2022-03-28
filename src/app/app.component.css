@@ -1,3 +1,11 @@
 .navbar-content-end {
     justify-content: end !important;
 }
+
+.pt-54 {
+    padding-top: 54px;
+}
+
+.height-full {
+    height: 100vh;
+}
