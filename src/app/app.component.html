@@ -8,6 +8,13 @@
         class="btn btn-transparent text-light"
         (click)="scroll(PastProjectsTarget)"
       >
+        About Me
+      </button>
+      <button
+        type="button"
+        class="btn btn-transparent text-light"
+        (click)="scroll(PastProjectsTarget)"
+      >
         Past Projects
       </button>
       <button
@@ -42,6 +49,11 @@
       </div>
     </div>
 
+    <!-- About me -->
+    <div class="height-full pt-54" #AboutMeTarget>
+
+    </div>
+
     <!-- Past projects -->
     <div class="height-full pt-54" #PastProjectsTarget>
       <past-projects></past-projects>
@@ -53,11 +65,11 @@
     </div>
 
     <!-- Skills -->
-    <div class="height-full pt-54" #SkillsTarget>
+    <div class="pt-54" #SkillsTarget>
       <skills></skills>
     </div>
 
-    <div class="height-full pt-54" class="footer">
+    <div class="pt-54" class="footer">
       <h2>footer</h2>
     </div>
   </div>
