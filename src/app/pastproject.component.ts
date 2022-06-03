@@ -8,5 +8,7 @@ import { pastProjectData } from 'src/content';
 })
 export class PastProjectComponent {
     pastProjects = pastProjectData;
+    public isCollapsed = false;
+
 
 }

@@ -1,15 +1,6 @@
 <div class="container">
-  <nav
-    class="navbar fixed-top navbar-dark bg-dark justify-content-end"
-  >
+  <nav class="navbar fixed-top navbar-dark bg-dark justify-content-end">
     <div class="container-fluid navbar-content-end">
-      <button
-        type="button"
-        class="btn btn-transparent text-light"
-        (click)="scroll(PastProjectsTarget)"
-      >
-        About Me
-      </button>
       <button
         type="button"
         class="btn btn-transparent text-light"
@@ -36,11 +27,16 @@
 
   <div class="content text-center">
     <!-- Intro -->
-    <div class="d-flex flex-column justify-content-center text-dark height-full">
+    <div
+      class="d-flex flex-column justify-content-center text-dark height-full"
+    >
       <span>
-        <h1 class="d-inline align-middle">Hi, I'm Kelvin Shen  </h1>
-        <img src="../assets/waving-hand.png" class="d-inline" style="width: 35px;"/>
-
+        <h1 class="d-inline align-middle me-2">Hi, I'm Kelvin Shen</h1>
+        <img
+          src="../assets/waving-hand.png"
+          class="d-inline"
+          style="width: 35px"
+        />
       </span>
       <div>
         I'm a 4th-year Software Engineering student at the University of
@@ -49,18 +45,13 @@
       </div>
     </div>
 
-    <!-- About me -->
-    <div class="height-full pt-54" #AboutMeTarget>
-
-    </div>
-
     <!-- Past projects -->
-    <div class="height-full pt-54" #PastProjectsTarget>
+    <div class="pt-54" #PastProjectsTarget>
       <past-projects></past-projects>
     </div>
 
     <!-- Work -->
-    <div class="height-full pt-54" #WorkTarget>
+    <div class="pt-54" #WorkTarget>
       <work></work>
     </div>
 
@@ -69,8 +60,27 @@
       <skills></skills>
     </div>
 
-    <div class="pt-54" class="footer">
-      <h2>footer</h2>
+    <div class="footer mt-200">
+      <p>
+        Made with <img src="../assets/heart.png" width="20" alt="heart" /> by
+        Kelvin Shen
+      </p>
+      <span>
+        <a href="https://www.linkedin.com/in/kelvin-shen-a85644166/">
+          <img
+            src="../assets/linkedin.png"
+            width="40"
+            class="btn btn-sm p-0 me-2"
+          />
+        </a>
+        <a href="https://github.com/kelvinshen00">
+          <img
+            src="../assets/github-logo-silhouette-in-a-square.png"
+            width="40"
+            class="btn btn-sm p-0"
+          />
+        </a>
+      </span>
     </div>
   </div>
 </div>

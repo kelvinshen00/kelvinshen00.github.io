@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { CollapseModule } from 'ngx-bootstrap/collapse';
 
 import { AppComponent } from './app.component';
 import { PastProjectComponent } from './pastproject.component';
@@ -14,7 +15,8 @@ import { WorkComponent } from './work.component';
     SkillsComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    CollapseModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

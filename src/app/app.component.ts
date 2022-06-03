@@ -7,8 +7,6 @@ import { PastProjectComponent } from './pastproject.component';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  @ViewChild(PastProjectComponent) child!:PastProjectComponent;
-  title = 'My Personal Website';
 
   scroll(htmlElement: HTMLElement){
     htmlElement.scrollIntoView();
