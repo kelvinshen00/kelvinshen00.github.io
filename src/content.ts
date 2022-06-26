@@ -1,23 +1,36 @@
 const pastProjectData = [
     {
-        title: "SweetLa", description: `An Android application thats allows users to order traditional 
-Chinese desserts online. The technology used includes Firebase, Java, XML, Git, Github and Maven.`, image: "../assets/waving-hand.png"
+        title: "Tab.ly",
+        description: `A tab and task management web application built based on the famous MERN stack.`,
+        technologies: `Firebase Authentication, JavaScript, MongoDB, React, Express, Git, GitHub`,
+        image: "../assets/tably.png"
+    }, {
+        title: "Picasso",
+        description: `Web application for listing and selling artworks built using NextUI component library.`,
+        technologies: `React, Git, GitHub, NextUI.`,
+        image: "../assets/picasso_gallery.jpg"
     },
     {
-        title: "SweetLa", description: `An Android application thats allows users to order traditional 
-Chinese desserts online. The technology used includes Firebase, Java, XML, Git, Github and Maven.`, image: "../assets/waving-hand.png"
+        title: "SweetLa",
+        description: `An Android shopping app that sells traditional Chinese desserts.`,
+        technologies: `Firebase, Java, XML, Git, Github, Android Studio`,
+        image: "../assets/sweetLa.png"
+    },
+    {
+        title: "Task Scheuler",
+        description: `A task scheduling program that generates schedules which require minimal task completion time.`,
+        technologies: `Java, JavaFX, Junit, Git, GitHub`,
+        image: "../assets/task_scheduler.png"
     }, {
-        title: "SweetLa", description: `An Android application thats allows users to order traditional 
-Chinese desserts online. The technology used includes Firebase, Java, XML, Git, Github and Maven.`, image: "../assets/waving-hand.png"
+        title: "Book sharing Home Page",
+        description: `Redesigned home page for a book-sharing website that follows the Material design guidelines to improve user experience.`,
+        technologies: `HTML, CSS, JavaScript`,
+        image: "../assets/book_sharing.png"
     }, {
-        title: "SweetLa", description: `An Android application thats allows users to order traditional 
-Chinese desserts online. The technology used includes Firebase, Java, XML, Git, Github and Maven.`, image: "../assets/waving-hand.png"
-    }, {
-        title: "SweetLa", description: `An Android application thats allows users to order traditional 
-Chinese desserts online. The technology used includes Firebase, Java, XML, Git, Github and Maven.`, image: "../assets/waving-hand.png"
-    }, {
-        title: "SweetLa", description: `An Android application thats allows users to order traditional 
-Chinese desserts online. The technology used includes Firebase, Java, XML, Git, Github and Maven.`, image: "../assets/waving-hand.png"
+        title: "Client Server Chat Application",
+        description: `Chat application that can host individual or group chats in real-time.`,
+        technologies: `Python 3, WebSocket`,
+        image: "../assets/chat_app.png"
     },];
 
 const workData = [{
