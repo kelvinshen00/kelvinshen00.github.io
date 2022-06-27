@@ -10,6 +10,5 @@ export class AppComponent {
 
   scroll(htmlElement: HTMLElement){
     htmlElement.scrollIntoView();
-
   }
 }

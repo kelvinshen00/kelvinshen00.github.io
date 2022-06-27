@@ -42,8 +42,8 @@ const workData = [
     year: "2021",
     duration: "2021 November – Current",
     role: "Software Developer Intern (full-stack)",
-    taskDescription: `Work in a team to construct Android and IOS applications. Work with agile methodology. Work with various third party dependencies and APIs. UI walkthrough to ensure UI usability`, 
-    technologyUsed: `Dart, Flutter, Git, Github, Postman, SQLite`
+    taskDescription: `During this internship, I worked alongside the development team and participated in the front-end and back-end development of client-facing products. My job in this role included updating the Angular version of the front-end project, realising the user interfaces and writing the endpoints for new features.`, 
+    technologyUsed: `HTML, CSS, Bootstrap 3, JavaScript, TypeScript, Angular, MySQL, Chai, Mocha, npm Git, Bitbucket, Jira, Postman`
 },
 {
     companyName: "LoveLive Limited",
@@ -51,8 +51,8 @@ const workData = [
     year: "2020",
     duration: "2020 November – 2021 February",
     role: "Software Developer Intern (front-end)",
-    taskDescription: `Work in a team to develop web application products. Work with agile methodology. Work with various third party dependencies and APIs. Write unit, component and integration tests for quality assurance`,
-    technologyUsed: `HTML, CSS, Bootstrap 3, JavaScript, TypeScript, Angular 8, MySQL, Chai, Mocha, npm Git, Bitbucket, Jira, Postman`
+    taskDescription: `I worked as a front-end developer to construct Android and IOS applications using Flutter. The mobile applications constructed include an app for food delivery drivers and a social media app.`,
+    technologyUsed: `Dart, Flutter, Git, Github, Postman, SQLite, Mapbox API`
 },
 {
     year: "2019"

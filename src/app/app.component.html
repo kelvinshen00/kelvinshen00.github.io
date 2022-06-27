@@ -1,47 +1,58 @@
 <div class="container">
-  <nav class="navbar fixed-top navbar-dark bg-dark justify-content-end">
-    <div class="container-fluid navbar-content-end">
-      <button
-        type="button"
-        class="btn btn-transparent text-light"
-        (click)="scroll(PastProjectsTarget)"
-      >
-        Past Projects
+  <nav class="navbar fixed-top navbar-dark bg-dark">
+    <div class="container-fluid" >
+      <button class="btn" (click)="scroll(CoverTarget)">
+        <img src="../assets/logo_transparent.png" style="width: 30px" />
       </button>
-      <button
-        type="button"
-        class="btn btn-transparent text-light"
-        (click)="scroll(WorkTarget)"
-      >
-        Work
-      </button>
-      <button
-        type="button"
-        class="btn btn-transparent text-light"
-        (click)="scroll(SkillsTarget)"
-      >
-        Skills
-      </button>
+      <div class="navbar-content-end">
+        <button
+          type="button"
+          class="btn btn-transparent text-light"
+          (click)="scroll(PastProjectsTarget)"
+        >
+          Past Projects
+        </button>
+        <button
+          type="button"
+          class="btn btn-transparent text-light"
+          (click)="scroll(WorkTarget)"
+        >
+          Work
+        </button>
+        <button
+          type="button"
+          class="btn btn-transparent text-light"
+          (click)="scroll(SkillsTarget)"
+        >
+          Skills
+        </button>
+      </div>
     </div>
   </nav>
 
   <div class="content text-center">
     <!-- Intro -->
     <div
+      #CoverTarget
       class="d-flex flex-column justify-content-center text-dark height-full"
     >
-      <span>
-        <h1 class="d-inline align-middle me-2">Hi, I'm Kelvin Shen</h1>
-        <img
-          src="../assets/waving-hand.png"
-          class="d-inline"
-          style="width: 35px"
-        />
-      </span>
-      <div>
-        I'm a 4th-year Software Engineering student at the University of
-        Auckland. <br />
-        I'm also a team player with a can-do attitude.
+      <div class="align-self-center" style="width: 60%">
+        <span>
+          <h1 class="d-inline align-middle me-2">Hi, I'm Kelvin Shen</h1>
+          <img
+            src="../assets/waving-hand.png"
+            class="d-inline"
+            style="width: 35px"
+          />
+        </span>
+        <h5>
+          Final year Software Engineering student at the University of Auckland.
+          <br />
+        </h5>
+        <p>
+          I believe challenges are the key ingredients in personal growth, and
+          life is tasteless without learning.
+        </p>
       </div>
     </div>
 
@@ -65,7 +76,7 @@
         Made with <img src="../assets/heart.png" width="20" alt="heart" /> by
         Kelvin Shen
       </p>
-      <span>
+      <span class="mb-10">
         <a href="https://www.linkedin.com/in/kelvin-shen-a85644166/">
           <img
             src="../assets/linkedin.png"
